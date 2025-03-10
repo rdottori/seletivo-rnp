@@ -1,0 +1,8 @@
+{
+	"sleep_interval" : 30,
+	"ping_count" : 30,
+	"concurrent_connections" : 10,
+	"ping_timeout" : 10,
+	"ping_hosts" : ["www.google.com", "www.youtube.com", "www.rnp.br"],
+	"track_hosts" : ["www.google.com", "www.youtube.com", "www.rnp.br"]
+}
