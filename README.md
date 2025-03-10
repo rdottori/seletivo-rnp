@@ -5,6 +5,10 @@ __Candidato:__ Rodrigo de Oliveira
 - [Questão 1](#questão-1)
    * [Instruções de uso](#instruções-de-uso)
    * [Documentação](#documentação)
+- [Questão 2](#questão-2)
+   * [Projeto 1: Página de status (Monitoramento)](#projeto-1-página-de-status-monitoramento)
+   * [Projeto 2: Implementação de práticas de DevOps em produto interno da empresa (DevOps)](#projeto-2-implementação-de-práticas-de-devops-em-produto-interno-da-empresa-devops)
+   * [Projeto 3: Automação de relatórios de backup (Automação)](#projeto-3-automação-de-relatórios-de-backup-automação)
 
 # Questão 1
 
@@ -28,7 +32,7 @@ Para acessar o frontend do Grafana, usar a URL:
     http://localhost:3000/
 O usuário padrão é `admin` e a senha padrão é `CZ6FDxewpuZjNktR`.
 
-O Grafana deve criar automaticamente os datasources e dashboards. Caso contrário, o dashboard pré-configurado fica no caminho `agente/init/grafana/provisioning/dashboards/dashboard.json`. O datasource deve ter o nome "grafana-postgresql-datasource" para que o dashboard funcione corretamente.
+O Grafana deve criar automaticamente os datasources e dashboards; o dashboard já configurado se chama apenas "Dashboard". Caso esse não existe devido a algum erro, ele pode ser importado usando um .json que fica no caminho `agente/init/grafana/provisioning/dashboards/dashboard.json`. O datasource deve ter o nome "grafana-postgresql-datasource" para que o dashboard funcione corretamente.
 
 O arquivo `config.json` na pasta `agente/monitor` pode ser editado em tempo real para configurar aspectos do programa como a quantidade de pings por vez e quais sites devem ser consultados.
 
