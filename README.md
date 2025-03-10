@@ -1,8 +1,14 @@
+Teste técnico para processo seletivo da RNP
+
+__Candidato:__ Rodrigo de Oliveira
+
+- [Questão 1](#questão-1)
+   * [Instruções de uso](#instruções-de-uso)
+   * [Documentação](#documentação)
+
 # Questão 1
 
-**Projeto: ** Agente de Monitoramento
-
-**Autor: ** Rodrigo de Oliveira
+__Projeto:__ Agente de Monitoramento
 
 ## Instruções de uso
 
@@ -44,6 +50,10 @@ O projeto fica todo dentro de uma instância do Docker Compose, separado em trê
 | Banco de dados          | Armazena estatísticas sobre as consultas como latência, códigos de resposta, etc.         | PostgreSQL 13 |
 | Grafana                 | Apresenta dashboards usando as estatísticas do banco de dados como base                                     | Grafana       |
 
+
+
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/11a9f377-c979-4779-9b0e-930d75061db3)
+
 ### Soluções e decisões de design
 
 As seguintes considerações foram respeitadas:
@@ -69,6 +79,13 @@ Também é importante destacar as seguintes suposições:
 
     psycopg2
     aiohttp
+
+### Imagens
+
+![2025-03-09-20:44:00](https://github.com/user-attachments/assets/3907f97b-c273-430c-9864-bfc6d595d54a)
+
+![2025-03-09-20:44:12](https://github.com/user-attachments/assets/5b97427d-01e1-4f83-b543-e5ba7be55d06)
+
 
 # Questão 2
 
