@@ -111,6 +111,8 @@ Como no primeiro projeto, a aplicação fica toda dentro de uma instância do Do
 | Script de monitoramento | Realiza consultas periódicas à API, realiza cálculos e guarda resultados no banco de dados | Python        |
 | Banco de dados          | Armazena estatísticas calculadas como qualidade da conexão, disponibilidade, etc.         | PostgreSQL 13 |
 | Grafana                 | Apresenta dashboards usando as estatísticas do banco de dados como base                                     | Grafana       |
+
+
 ![Untitled Diagram2 drawio](https://github.com/user-attachments/assets/292e12ce-2e00-4188-8595-d9c8cda918cb)
 
 #### Soluções e decisões de design
