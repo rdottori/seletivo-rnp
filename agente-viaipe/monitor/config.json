@@ -1,0 +1,6 @@
+{
+	"sleep_interval" : 60,
+	"requests_timeout" : 30,
+	"requests_retry_wait" : 60,
+	"api_host" : "https://viaipe.rnp.br/api/norte"
+}
